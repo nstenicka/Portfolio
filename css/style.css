@@ -30,13 +30,13 @@ h1{
 .content{
 	font-family: 'Raleway', sans-serif;
 	margin:0 auto;
-	min-width: 37.5rem;
 	font-size: 1.2rem;
 	text-align: center;
 }
 
 .top-navigation {
     background-color: #fff;
+    margin-bottom: 1.2rem;
 
 }
 .top-navigation > .content {
@@ -63,7 +63,7 @@ h1{
 	border-radius: 100%;
 	height: 400px;
 	width: 400px;
-	margin: -150px 0 0 -150px;
+	margin: -250px 0 0 -150px;
 	opacity: 0.4;
 	position: absolute;
 	top:40%;
@@ -110,7 +110,7 @@ h3 {
 }
 .screenshot{
 	height: auto;
-	width: 60rem;
+	width: 40rem;
 }
 h4 {
 	color:white;
@@ -135,8 +135,36 @@ h5{
 	color:838994;
 	text-align: center;
 	font-family:'Dosis', sans-serif;
-	font-size: 1rem;
+	font-size: 1.3rem;
 }
 footer{
-	margin: 0; 
+
+	align:center;
+}
+.icons li span{
+	color:white;
+	display: block;
+	text-align:center;
+}
+@media only screen and (max-width: 500px) {
+    h2 {
+        font-size: 3em;
+    }
+	.box{
+	max-width: 500px;
+	height: 50px;
+	width:50px;
+	position:fixed;
+	align-self: center;
+
+	}
+	header{
+		font-size: 3em;
+	}
+	.content{
+		font-size: .03em;
+	}
+	.profile-text{
+		font-size: 2em;
+	}
 }
