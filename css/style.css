@@ -74,6 +74,7 @@ h1{
 	box-sizing: border-box;
 	padding: 0.625rem 0;
 	margin-left: -40rem;
+	margin-top: 3rem;
 }
 h2 {
 	display: block;
